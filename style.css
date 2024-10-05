@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&display=swap');
+
+body{
+    font-family: "Fredoka", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #333030;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background: #242424;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+header #acc{
+    display: none;
+}
+header .logo{
+    color: #fefefe;
+    padding: 15px;
+    margin-left: -6%;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 12%;
+}
+header nav a{
+    color: #8893e6;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav #canc{
+    position: absolute;
+    display: none;
+}
+
+header #btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+header #btns button{
+    font-family: "Fredoka", sans-serif;
+    border: none;
+    outline: none;
+    padding: 8px 25px;
+    border-radius: 4px;
+}
+header #btns #sign{
+    background: transparent;
+    color: #fefefe;
+    font-size: 1.1rem;
+}
+#signup-container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 36%;
+    position: fixed;
+    z-index: 1;
+}
+#signup-container form #can
+{
+ width: 20px;
+ top: 12%;
+ right: 50%;
+ background: #fefefe;
+ padding: 10px;
+ border-radius: 50px;
+}
+#signup-container form h3{
+    margin-top: -10px;
+}
+#signup-container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    background: #272727;
+    padding: 50px 50px;
+    padding-bottom: 40px;
+    height: 370px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #030303;
+}
+#signup-container form input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 8px 20px;
+    color: #030303;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+}
+
+#signup-container form button{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 12px 94px;
+    color: #fffefe;
+    font-size: 16px;
+    font-family: "Fredoka", sans-serif;
+    background: #0c0c0c;
+}
+
+#login-container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 36%;
+    position: fixed;
+    z-index: 1;
+}
+#login-container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    background: #272727;
+    padding: 50px 50px;
+    padding-bottom: 40px;
+    height: 370px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #030303;
+}
+
+#login-container form input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 8px 20px;
+    color: #030303;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+}
+#login-container #can2{
+    width: 20px;
+ 
+ top: 27%;
+ right: 38%;
+ background: #fefefe;
+ padding: 10px;
+ border-radius: 50px;
+}
+#login-container form button{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 12px 105px;
+    color: #fffefe;
+    font-size: 16px;
+    font-family: "Fredoka", sans-serif;
+    background: #0c0c0c;
+}
+main{
+    padding: 100px 0px;
+    width: 100%;
+    height: 100vh;
+    background: #1d1d1d;
+    box-shadow: 0px 0px 3px #8893e6;
+}
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 60px;
+    gap: 40px;
+}
+
+main .container .content img{
+    width: 300px;
+    height: 300px;
+}
+
+main .container .content h2{
+    color: #8893e6;
+    font-weight: 700;
+    text-align: center;
+}
+
+main .container .content h3{
+    color: #fffefe;
+}
+main .container .content button{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 14px 64px;
+    color: #1b2a53;
+    font-size: 16px;
+    font-family: "Fredoka", sans-serif;
+    background: #bdbdc0;
+}
+
+main .container .content p{
+    color: #918e8e;
+    font-size: 1.3rem;
+}
+.most{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    width: 100%;
+    height: 85vh;
+    background: #1b1919;
+}
+.most h2{
+    color: #fffefe;
+    font-size: 1.4rem;
+}
+.most h3{
+    text-align: center;
+    color: #8893e6;
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 50px;
+}
+.most .btns{
+    display: flex;
+    margin-top: -250px;
+    align-items: center;
+    gap: 20px;
+}
+.most .btns button{
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 12px 40px;
+    color: #fffefe;
+    font-size: 16px;
+    font-family: "Fredoka", sans-serif;
+    background: #0f2d46;
+}
+.most .btns .active{
+    border: 2px solid #8893e6;
+}
+.most .btns #change{
+    background: #fefefe;
+    color: #030303;
+}
+.most .content{
+    position: absolute;
+    color: #fffefe;
+    display: flex;
+   
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 300px 0px;
+    height: 50vh;
+    gap: 20px;
+    width: 100%;
+    background:#394469;
+}
+
+.most .content h5{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #81b8e6;
+    font-weight: 700;
+}
+.most .content .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.most .content .all p{
+    text-align: center;
+    padding: 40px;
+}
+.most .content .all img{
+   width: 200px;
+   height: 200px;
+}
+
+.more{
+    display: flex;
+    height: 85Vh;
+    width: 100%;
+    background: #1d1c1c;
+    flex-direction: column;
+    color: #fefefe;
+    margin-top: 50px;
+    justify-content: flex-start;
+    padding: 50px 0px;
+}
+.more ul{
+
+    list-style: none;
+}
+.more ul h2{
+    color: #81b8e6;
+}
+.more .media h2{
+    text-align: center;
+    color: #81b8e6;
+    margin-top: -20px;
+    font-size: 1.3rem;
+}
+.more .media .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.more .name{
+    background: #141414;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    width: 100%;
+    height: 6vh;
+    bottom: 0;
+    position: fixed;
+    align-items: center;
+}
+
+.more .name a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: 2px solid #616466;
+    border-radius: 50px;
+    background: #404041;
+}
+
+@media(max-width:1150px){
+    header .logo{
+        color: #fefefe;
+        padding: 15px;
+        margin-left: -2%;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .most .btns{
+        display: flex;
+        margin-top: -250px;
+        align-items: center;
+        gap: 20px;
+        margin-left: -110px;
+    }
+    main{
+        height: 70vh;
+    }
+  
+}
+
+@media(max-width:1050px){
+  header nav a{
+    font-size: 0.9rem;
+  }
+  .most .btns{
+    display: flex;
+    margin-top: -250px;
+    flex-grow: 5;
+    align-items: center;
+    gap: 20px;
+    margin-left: -30px;
+}
+.most h2{
+    margin-left: 20px;
+}
+}
+
+@media(max-width:900px){
+
+    header #btns{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+    }
+    header #btns button{
+        font-family: "Fredoka", sans-serif;
+        border: none;
+        outline: none;
+        padding: 8px 15px;
+        border-radius: 4px;
+    }
+    header #btns #sign{
+        background: transparent;
+        color: #fefefe;
+        font-size: 0.8rem;
+    }
+   
+    header nav a{
+      font-size: 0.7rem;
+    }
+    .most .btns{
+      display: flex;
+      margin-top: -250px;
+      flex-grow: 5;
+      align-items: center;
+      gap: 20px;
+      
+  }
+  .most .btns button{
+    padding: 10px 30px;
+  }
+  }
+  @media(max-width:800px){
+    header .logo{
+        margin-left: 10px;
+    }
+    header .logo span{
+       font-size: 0.9rem;
+    }
+    header nav{
+        margin-left: -40px;
+    }
+    .most .content{
+        margin-top: 450px;
+    }
+    .most .btns{
+        display: block;
+        margin-top: 200px;
+    }
+    .most .btns button{
+        margin:  10px;
+    }
+    .more{
+        margin-top: 170px;
+    }
+  }
+  @media(max-width:700px){
+    header{
+        gap: 300px;
+    }
+    header nav #canc{
+        position: absolute;
+        display: block;
+        top: 0;
+        padding: 20px;
+        margin-left: 470px;
+    }
+    header #btns{
+        display: none;
+    }
+    header nav{
+        margin-top: 69px;
+        margin-left:0px;
+        background: #2b2a2a;
+        flex-direction: column;
+        position: absolute;
+        height: 300px;
+        width: 100%;
+        display: none;
+    }
+    header nav a{
+        color: #ada9a9;
+    }
+    header #acc{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+    #signup-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 25%;
+        position: fixed;
+        z-index: 1;
+    }
+    #login-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 25%;
+        position: fixed;
+        z-index: 1;
+    }
+    header #acc h2{
+      color: #ffffff;  
+      font-size: 1rem;
+    }
+    header #acc img{
+        height: 40px;
+        width: 40px;
+        mix-blend-mode: multiply;
+    }
+    main .container{
+        height: 75vh;
+        flex-direction: column;
+        margin-top: -40px;
+        gap: 70px;
+    }
+    main .container img{
+        width: 200px;
+    }
+    main .container .content p{
+        font-size: 1rem;
+    }
+    .most .content{
+      flex-direction: column;
+      margin-top: 400px;
+      height: 100vh;
+    }
+    .more{
+        margin-top: 400px;
+        padding:100px 2px;
+        height: 60vh;
+    }
+    .more .name{
+        gap: 60px;
+        margin-left: -40px;
+    }
+    .more .name .pro h3{
+        font-size: 0.8rem;
+    }
+  }
+  @media(max-width:600px){
+    header{
+        gap: 200px;
+    }
+
+    header nav #canc{
+        margin-left: 400px;
+    }
+    .more .name{
+        gap: 30px;
+        margin-left: -40px;
+    }
+    #signup-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 15%;
+        position: fixed;
+        z-index: 1;
+    }
+    #login-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 15%;
+        position: fixed;
+        z-index: 1;
+    }
+  }
+
+  @media(max-width:500px){
+    header{
+        gap: 150px;
+    }
+
+    header nav #canc{
+        margin-left: 300px;
+    }
+    #signup-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 12%;
+        position: fixed;
+        z-index: 1;
+    }
+    #signup-container form{
+        padding: 50px 30px;
+    }
+    #login-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 12%;
+        position: fixed;
+        z-index: 1;
+    }
+    #login-container form{
+      padding: 40px 30px;
+    }
+    main .container .content h2{
+        font-size: 1.3rem;
+    }
+    main .container .content h3{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .most h2
+       {
+        font-size: 1rem;
+       }
+       .most h3
+       {
+        font-size: 0.8rem;
+       }
+       .most .btns
+       {
+        margin-top: 100px;
+       }
+
+    
+    .more{
+        margin-top: 530px;
+    }
+    .more h2{
+        font-size: 1.2rem;
+    }
+    .more ul li{
+        font-size: 0.8rem;
+        margin: 3px;
+    }
+    .more .media{
+        margin-top: 60px;
+    }
+    .more .name{
+        flex-direction: column;
+        gap: 15px;
+        margin-left: -40px;
+        display: none;
+    }
+  }
+  @media(max-width:450px){
+    header{
+        gap: 150px;
+    }
+
+    header nav #canc{
+        margin-left: 300px;
+    }
+    #signup-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 9%;
+        position: fixed;
+        z-index: 1;
+    }
+    #signup-container form{
+        padding: 50px 30px;
+    }
+    #login-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 9%;
+        position: fixed;
+        z-index: 1;
+    }
+    #login-container form{
+      padding: 40px 30px;
+    }
+}
+
+  @media(max-width:400px){
+    header{
+        gap: 100px;
+    }
+
+    #signup-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 7%;
+        position: fixed;
+        z-index: 1;
+    }
+    #signup-container form{
+        padding: 50px 20px;
+    }
+    #signup-container form input{
+        padding: 8px 10px;
+    }
+    #signup-container form button{
+        padding: 8px 85px;
+    }
+    #login-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 7%;
+        position: fixed;
+        z-index: 1;
+    }
+    #login-container form{
+      padding: 40px 20px;
+    }
+    #login-container form input{
+        padding: 8px 10px;
+    }
+    #login-container form button{
+        padding: 8px 85px;
+    }
+
+    header nav #canc{
+        margin-left: 250px;
+    }
+    main .container .content button{
+        padding: 7px 25px;
+        text-align: center;
+    }
+    .most h2
+       {
+        font-size: 1rem;
+       }
+       .most h3
+       {
+        font-size: 0.8rem;
+       }
+       .most .btns
+       {
+        margin-top: 100px;
+       }
+       .most .btns button
+       {
+        padding: 7px 25px;
+       }
+       .most .content h5{
+        font-size: 1rem;
+     }
+     .most .content .all{
+     gap: -12px;
+   }
+   .most .content p{
+      margin-top: -5px;
+      font-size: 0.9rem;
+   }
+    
+    .more{
+        margin-top: 530px;
+    }
+    .more h2{
+        font-size: 1.2rem;
+    }
+    .more ul li{
+        font-size: 0.8rem;
+        margin: 3px;
+    }
+    .more .name{
+        flex-direction: column;
+        gap: 25px;
+        margin-left: -40px;
+        display: none;
+        height: 15vh;
+    }
+  }
+  @media(max-width:350px){
+    header{
+        gap: 80px;
+    }
+
+    header nav #canc{
+        margin-left: 230px;
+    }
+    .most .btns
+       {
+        margin-top: 80px;
+       }
+       .most .content h5{
+          font-size: 1rem;
+       }
+       .most .content .all{
+       gap: -12px;
+     }
+     .most .content p{
+        margin-top: -5px;
+        font-size: 0.9rem;
+     }
+
+     .more .name{
+        flex-direction: column;
+        gap: 35px;
+        height: 15vh;
+        margin-left: -40px;
+        display: none;
+    }
+  }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css">
+        <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>LOGO</span>
+        </div>
+        <nav id="nav">
+          <img src="cancel.png" width="30px" id="canc" onclick="hideNav()">
+            <a href="click.html">Home</a>
+            <a href="">About</a>
+            <a href="">News</a>
+            <a href="">Tranding</a>
+        </nav>
+       <div id="acc">
+        <h2 onclick="hideAcc()">Account</h2>
+        <i class="ri-menu-5-fill" id="side" onclick="showNav()" style="font-size: 40px; color: #fef;"></i>
+       </div>
+        <div id="btns">
+            <button id="sign" onclick="seeSign()">Signup</button>
+            <button onclick="seeLog()">Login</button>
+        </div>
+       
+    </header>
+    
+
+    <div id="signup-container">
+        
+        
+        <form action="">
+            <img src="cancel.png" id="can" onclick="dontSeeSign()"><br>
+            <h3 style="color: #fff;">LOGO</h3>
+            
+            <input type="text" placeholder="Firstname">
+            <input type="text" placeholder="Lastname">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>Register</button>
+            <p style="color: #8893e6;">already have an account</p>
+            <h3>Login</h3>
+        </form>
+    </div>
+
+
+    <div id="login-container">
+        <form action="">
+            <img src="cancel.png" id="can2" onclick="dontSeeLog()">
+            <h3 style="color: #fef;">Login</h3>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="password">
+            <button>Login</button>
+            <p style="color: #fef;">Dont have an account</p>
+            <h4 onclick="seeSign()" style="color: #8893e6;">Signup</h4>
+        </form>
+    </div>
+
+
+
+    <main>
+      <div class="container">
+        <div class="content">
+          <img src="dark.png" alt="">
+          <h2>D News</h2>
+          <h3>Get whats trend by one click</h3>
+        </div>
+
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sunt molestiae unde magnam. Iure quam laborum excepturi asperiores quibusdam distinctio.</p>
+          <button>Explore</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="most">
+        <h2>NEWS</h2>
+          <h3>SELECT CATEGORY</h3>
+        <div class="btns">
+            <button class="active">Technology</button>
+            <button id="change">Science</button>
+            <button>Fashion</button>
+            <button id="change">Popular</button>
+            <button>Health</button>
+        </div>
+
+        <div class="content">
+            <h5>TECHNOLOGY</h5>
+           <div class="all">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta ab vero ex optio doloremque nesciunt officiis dicta a aliquid distinctio.</p>
+            <img src="dark.png" alt="">
+           </div>
+
+           <div class="all">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum corporis sunt distinctio, nisi doloremque praesentium cumque doloribus blanditiis reiciendis molestias!</p>
+            <img src="dark.png" alt="">
+           </div>
+        </div>
+    </div>
+
+
+
+    <div class="more">
+       <ul>
+        <h2>News</h2>
+        <li>Trending</li>
+        <li>Technology</li>
+        <li>Fashion</li>
+        <li>Science</li>
+       </ul>
+
+       <ul>
+        <h2>Content</h2>
+        <li>World News</li>
+        <li>African News</li>
+        <li>American News</li>
+        <li>Asian News</li>
+       </ul>
+
+       <div class="media">
+          <h2>Contact us</h2>
+          <div class="imgs">
+            <img src="facebook.png" width="30px">
+            <img src="insta.png" width="30px">
+            <img src="twitter.png" width="30px">
+            <img src="whatsapp.png" width="30px">
+          </div>
+       </div>
+
+       <div class="name" id="last">
+         <div class="pro">
+            <a href="#">Back to top</a>
+         </div>
+
+         <div class="pro">
+          <h3>  © 2024 D Global Tech. All Rights Reserved</h3>
+         </div>
+       </div>
+    </div>
+    <script src="scipt.js"></script>
+</body>
+</html>
